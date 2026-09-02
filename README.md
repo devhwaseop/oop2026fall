@@ -1,5 +1,5 @@
 # oop2025fall
-OOP course @ HNU CE (2025 fall)
+OOP course @ HNU CE (2026 fall)
 
 ## Links
 수업 노트 관련
