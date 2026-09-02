@@ -36,30 +36,20 @@ OOP course @ HNU CE (2025 fall)
 ### Before installing
 학기 초에 시험해 본 바에 따르면 Codespace에 기본적으로 다음과 같은 python, jupyter가 설치되어 있었다.
 ```
-@kyagrd ➜ /workspaces/oop2025fall (main) $ python --version
-Python 3.12.1
-@kyagrd ➜ /workspaces/oop2025fall (main) $ jupyter --version
+@kyagrd ➜ /workspaces/oop2026fall (main) $ python --version
+Python 3.1x.x
+@kyagrd ➜ /workspaces/oop2026fall (main) $ jupyter --version
 Selected Jupyter core packages...
-IPython          : 9.4.0
-ipykernel        : 6.29.5
-ipywidgets       : not installed
-jupyter_client   : 8.6.3
-jupyter_core     : 5.8.1
-jupyter_server   : 2.16.0
-jupyterlab       : 4.4.4
-nbclient         : 0.10.2
-nbconvert        : 7.16.6
-nbformat         : 5.10.4
-notebook         : not installed
-qtconsole        : not installed
-traitlets        : 5.14.3
+IPython          : xx.xx.xx
+ipykernel        : xx.xx.xx
+...
+@kyagrd ➜ /workspaces/oop2026fall (main) $ java --version
+... (아마도 25 어쩌고)
 ```
    
 ### Installation steps
-코드스페이스(또는 적절한 리눅스 환경)에서 명령어 3개만 입력하면 된다.
-```
-sdk install java 22.0.2-tem
-```
+코드스페이스(또는 적절한 리눅스 환경)에서 명령어 2개만 입력하면 된다.
+
 위 명령은 Codespace(또는 sdkman으로 자바 설치를 관리하는 시스템)에서만 필요한데, 설치 중에 뭐라고 물어보면 Y를 입력하면 된다.
 (이걸 Y가 아니라 n으로 잘못 누르면 환경설정이 꼬여서 설치가 제대로 되지 않는다.)
 
@@ -73,7 +63,7 @@ curl -Ls https://sh.jbang.dev | bash -s - app setup
 (성공적으로 설치되면 영문으로 새로운 터미널을 열라는 내용이 포함된 메시지가 출력될 것이다.)
 
 ```
-jbang --java 22 io.github.padreati:rapaio-jupyter-kernel:2.1.0 -i -auto
+jbang --java 25 io.github.padreati:rapaio-jupyter-kernel:4.0.0 -i -auto
 ```
 
 여기까지 성공적으로 rapaio 자바 커널(런타임)을 설치하면 끝!!
