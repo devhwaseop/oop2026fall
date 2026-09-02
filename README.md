@@ -11,13 +11,13 @@ OOP course @ HNU CE (2026 fall)
       - [SDKMAN으로 JAVA 관리하기](https://steady-hello.tistory.com/134)
   - https://github.com/jupyter-java 주피터 환경에서 자바를 사용하기 위한 환경 설정 관련 내용 정리
     - [JBang](https://www.jbang.dev/) 자바 개발 환경 설치를 간편하게 해주는 관리 도구
-    - [rapaio-jupyter-kernel 2.1.0](https://github.com/padreati/rapaio-jupyter-kernel/tree/2ce7a0c8dde6f35af2a276f14afff4ff998275f1) 수업시간에 활용하는 자바 주피터 커널
-  - TODO코틀린 관련 환경은 추후 업데이트 예정
+    - [rapaio-jupyter-kernel](https://github.com/padreati/rapaio-jupyter-kernel/) 수업시간에 활용하는 자바 주피터 커널
+  - TODO 코틀린 관련 환경은 추후 업데이트 예정
   
 프로그래밍 언어 관련
-  - https://docs.oracle.com/en/java/javase/22/ JDK 22 문서
-    - [JDK 21이 출시되었다. 최신 문법 보고 가요](https://velog.io/@dongvelop/JDK-21%EC%9D%B4-%EC%B6%9C%EC%8B%9C%EB%90%98%EC%97%88%EB%8B%A4.-%EC%B5%9C%EC%8B%A0-%EB%AC%B8%EB%B2%95%EC%9D%80-%EC%82%B4%ED%8E%B4%EB%B4%90%EC%95%BC%EC%A7%80) 
-  - https://kotlinlang.org/docs/ Kotlin 2.0.x 문서
+  - https://docs.oracle.com/en/java/javase/25/ JDK 25 문서
+    - [Java 17과 Java 25의 차이 - 두 LTS 사이에 바뀐 것과 업그레이드 확인 목록](https://sarc.io/articles/java17-vs-java25-lts)
+  - https://kotlinlang.org/docs/ Kotlin 2.4.x 문서
 
 ## Installing and running the programming environment
 기본적으로 Codespace 안에서 설치하는 것을 기준으로 한다.
